@@ -4,7 +4,6 @@ import HomePage from './components/HomePage'
 import Greenday from './components/Greenday'
 import Coldplay from './components/coldplay'
 import TheBeatles from './components/TheBeatles'
-
 import Nav from './components/Nav'
 
 const App = () => {
