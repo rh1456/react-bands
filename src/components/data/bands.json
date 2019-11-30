@@ -1,0 +1,37 @@
+{
+  "categories": [
+    {
+      "category": "theBeatles",
+      "music": [
+        {
+          "image": "https://i2.wp.com/www.culturesonar.com/wp-content/uploads/2018/09/Beatles-1966-Getty.jpg?w=960&ssl=1",
+          "title": "The Beatles",
+          "album": "Controversy over whether Abbey Road or Let It Be should be considered the groups' final album together.",
+          "className": "the-beatles"
+        }
+      ]
+    },
+    {
+      "category": "greenday",
+      "music": [
+        {
+          "image": "https://res.cloudinary.com/dbtqsg7vf/image/upload/v1559153662/smores.jpg",
+          "title": "GreenDay",
+          "album": "New album debuting in 2020, called Father of All Motherf****ers",
+          "className": "GreenDay"
+        }
+      ]
+    },
+    {
+      "category": "coldplay",
+      "music": [
+        {
+          "image": "https://res.cloudinary.com/dbtqsg7vf/image/upload/v1559153662/apple.jpg",
+          "title": "Coldplay",
+          "album": "Their most recent album is Everyday Life, debuted in 2019",
+          "className": "ColdPlay"
+        }
+      ]
+    }
+  ]
+}
