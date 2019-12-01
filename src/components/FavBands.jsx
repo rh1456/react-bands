@@ -1,13 +1,15 @@
 import React from 'react'
 import data from './data/bands.json'
 
-const bandsFormat = props => {
-  const favBands = data.categories.filter(item => {
+const FavBands = props => {
+  const bands = data.categories.filter(item => {
     return item.category === props.match.params.category
   })[0]
+  // console.log(favBands)
   return (
-    <section className={props.match.params.category}>
-      {favBands.music.map(band => {
+    <div className={props.match.params.category}>
+      <h1> This is the {bands.category} </h1>
+      {bands.music.map(band => {
         return (
           <div>
             <header className="bandName">{band.title} </header>
@@ -16,7 +18,7 @@ const bandsFormat = props => {
           </div>
         )
       })}
-    </section>
+    </div>
   )
 }
-export default bandsFormat
+export default FavBands
